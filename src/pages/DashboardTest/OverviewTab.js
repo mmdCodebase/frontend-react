@@ -109,7 +109,7 @@ const OverviewTab = () => {
     return (
         <React.Fragment>
             <Row>
-                <Col xl={6} md={6}>
+                <Col md={6}>
                     <Card style={{ height: "274px", padding: "4%" }}>
 
                         <div className="flex-shrink-0" style={{ position: "absolute", right: "0px", top: "0px" }}>
@@ -139,106 +139,109 @@ const OverviewTab = () => {
                         </CardBody>
                     </Card>
                 </Col>
+                <Col md={6}>
+                    <Row>
+                        <Col md={6}>
+                            <div style={{ height: "267.5" }}>
+                                <Card className={"card-animate"}>
+                                    <CardBody>
+                                        <div className="d-flex align-items-center">
+                                            <div className="flex-grow-1">
+                                                <p className="fw-medium mb-0 text-muted fs-16">Shunter Score</p>
+                                            </div>
+                                            <div className="flex-shrink-0">
+                                                <h5 className="fs-14 mb-0 text-white">
+                                                    <i className="fs-24 align-middle ri-information-line"></i>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="align-items-end justify-content-between mt-4">
+                                            <div>
+                                                <h4 className="fs-36 fw-semibold ff-secondary mb-2 ">
+                                                    <span className="counter-value" data-target="559.25">
+                                                        <CountUp
+                                                            start={0}
+                                                            prefix={"$"}
+                                                            end={1580}
+                                                            decimals={2}
+                                                            duration={3}
+                                                        />
+                                                    </span>
+                                                </h4>
+                                            </div>
+                                            <br />
 
-                <Col xl={3} md={6}>
-                    <div style={{ height: "267.5" }}>
-                        <Card className={"card-animate"}>
-                            <CardBody>
-                                <div className="d-flex align-items-center">
-                                    <div className="flex-grow-1">
-                                        <p className="fw-medium mb-0 text-muted fs-16">Shunter Score</p>
-                                    </div>
-                                    <div className="flex-shrink-0">
-                                        <h5 className="fs-14 mb-0 text-white">
-                                            <i className="fs-24 align-middle ri-information-line"></i>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div className="align-items-end justify-content-between mt-4">
-                                    <div>
-                                        <h4 className="fs-36 fw-semibold ff-secondary mb-2 ">
-                                            <span className="counter-value" data-target="559.25">
-                                                <CountUp
-                                                    start={0}
-                                                    prefix={"$"}
-                                                    end={1580}
-                                                    decimals={2}
-                                                    duration={3}
-                                                />
-                                            </span>
-                                        </h4>
-                                    </div>
-                                    <br />
+                                            <Col lg={5} >
+                                                <select className="form-select mb-3" aria-label="Default select example">
+                                                    <option >18%</option>
+                                                    <option value="1">36%</option>
+                                                    <option value="2">72%</option>
+                                                    <option value="3">144%</option>
+                                                </select>
+                                            </Col>
+                                        </div>
+                                    </CardBody>
+                                </Card>
+                            </div>
 
-                                    <Col lg={5} >
-                                        <select className="form-select mb-3" aria-label="Default select example">
-                                            <option >18%</option>
-                                            <option value="1">36%</option>
-                                            <option value="2">72%</option>
-                                            <option value="3">144%</option>
-                                        </select>
-                                    </Col>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </div>
+                            <div className="w-100" style={{ display: 'inline-block' }} >
+                                <Link to="#" className="btn fs-16 px-4 btn-rounded w-100" style={{ backgroundColor: "#F7FF9C", color: "#1C1F21" }}>Enable Shutter AI</Link>
+                            </div>
+                        </Col>
+                        <Col md={6}>
+                            <Card className="card-animate" style={{ backgroundColor: "#2C74FF" }}>
+                                <CardBody style={{ height: "267.5px" }}>
+                                    {(otherWidgets2 || []).map((item, key) => (<Col lg={12} key={key}>
+                                        <div className="d-flex align-items-center">
+                                            <div className="flex-grow-1">
+                                                <p className={"fw-medium mb-0 fs-16 text-white"}>Shunter Score</p>
+                                            </div>
+                                            <div className="flex-shrink-0">
+                                                <h5 className={"fs-14 mb-0 text-success"}>
+                                                    <p className={"fw-medium mb-0 p-3 text-white"} style={{ backgroundColor: "#1F65ED", borderRadius: "8px" }}>Last 30days</p>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="flex-grow-1">
+                                            <p className={"fw-medium mb-0 text-white"}>Trafic</p>
+                                            <p className={"fw-medium mb-0 text-white"}>Unique Visitors</p>
+                                        </div>
+                                        <div className="align-items-end justify-content-between mt-4">
+                                            <div>
+                                                <h4 className={"fs-22 fw-semibold ff-secondary mb-4 "}>
+                                                    <span className="counter-value fs-36" data-target="559.25" style={{ color: "#F7FF9C" }}>
+                                                        <CountUp
+                                                            start={0}
+                                                            prefix={"$"}
+                                                            end={26751}
+                                                            decimals={0}
+                                                            duration={4}
+                                                        />
+                                                    </span>
+                                                </h4>
+                                            </div>
 
-                    <div className="w-100" style={{ display: 'inline-block' }} >
-                        <Link to="#" className="btn fs-16 px-4 btn-rounded w-100" style={{ backgroundColor: "#F7FF9C", color: "#1C1F21" }}>Enable Shutter AI</Link>
-                    </div>
-                </Col>
-                <Col xl={3} md={6}>
-                    <Card className="card-animate" style={{ backgroundColor: "#2C74FF" }}>
-                        <CardBody style={{ height: "267.5px" }}>
-                            {(otherWidgets2 || []).map((item, key) => (<Col lg={12} key={key}>
-                                <div className="d-flex align-items-center">
-                                    <div className="flex-grow-1">
-                                        <p className={"fw-medium mb-0 fs-16 text-white"}>Shunter Score</p>
-                                    </div>
-                                    <div className="flex-shrink-0">
-                                        <h5 className={"fs-14 mb-0 text-success"}>
-                                            <p className={"fw-medium mb-0 p-3 text-white"} style={{ backgroundColor: "#1F65ED", borderRadius: "8px" }}>Last 30days</p>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div className="flex-grow-1">
-                                    <p className={"fw-medium mb-0 text-white"}>Trafic</p>
-                                    <p className={"fw-medium mb-0 text-white"}>Unique Visitors</p>
-                                </div>
-                                <div className="align-items-end justify-content-between mt-4">
-                                    <div>
-                                        <h4 className={"fs-22 fw-semibold ff-secondary mb-4 "}>
-                                            <span className="counter-value fs-36" data-target="559.25" style={{ color: "#F7FF9C" }}>
-                                                <CountUp
-                                                    start={0}
-                                                    prefix={"$"}
-                                                    end={26751}
-                                                    decimals={0}
-                                                    duration={4}
-                                                />
-                                            </span>
-                                        </h4>
-                                    </div>
+                                        </div>
+                                        <div className="progress animated-progess rounded-bottom rounded-top rounded-0" style={{ height: "6px", backgroundColor: "#2C74FF" }}>
+                                            {item.progressBar1.map((item, key) => (
+                                                <div className={"progress-bar rounded-0 me-1"} role="progressbar" style={{ width: item.width, backgroundColor: item.bgColor }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" key={key}></div>
+                                            ))}
+                                        </div>
 
-                                </div>
-                                <div className="progress animated-progess rounded-bottom rounded-top rounded-0" style={{ height: "6px", backgroundColor: "#2C74FF" }}>
-                                    {item.progressBar1.map((item, key) => (
-                                        <div className={"progress-bar rounded-0 me-1"} role="progressbar" style={{ width: item.width, backgroundColor: item.bgColor }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" key={key}></div>
-                                    ))}
-                                </div>
+                                        <div className="d-flex flex-wrap justify-content-evenly">
+                                            {item.subItem.map((item, key) => (
+                                                <p className="mb-0 my-3" style={{ color: "white" }} key={key}>
+                                                    <i className={"fs-18 align-middle me-2 rounded-circle shadow"}></i>
+                                                    {item.label}
+                                                </p>
+                                            ))}
+                                        </div>
+                                    </Col>))}
+                                </CardBody>
 
-                                <div className="d-flex flex-wrap justify-content-evenly">
-                                    {item.subItem.map((item, key) => (
-                                        <p className="mb-0 my-3" style={{ color: "white" }} key={key}>
-                                            <i className={"fs-18 align-middle me-2 rounded-circle shadow"}></i>
-                                            {item.label}
-                                        </p>
-                                    ))}
-                                </div>
-                            </Col>))}
-                        </CardBody>
-
-                    </Card>
+                            </Card>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
             <Row>

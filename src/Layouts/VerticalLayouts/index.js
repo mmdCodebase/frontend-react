@@ -95,7 +95,7 @@ const Layout = (props) => {
                     layoutModeType={layoutModeType}
                     onChangeLayoutMode={onChangeLayoutMode} />
                 <Sidebar layoutType={layoutType} />
-                <div className="main-content" style={{marginLeft: "300px"}}>{props.children}
+                <div className="main-content">{props.children}
                     <Footer />
                 </div>
             </div>
