@@ -7,17 +7,17 @@ const Footer = () => {
     return (
         <React.Fragment>
             <footer className="footer">
-                <div className="w-70 text-center">
-                    <div className="m-auto text-center d-inline mx-5">
+                <div className="w-100 text-center">
+                    <div className="m-auto text-center d-inline">
                         <Link to="#" className={"text-decoration-underline "}>Company</Link>
                     </div>
-                    <div className="m-auto text-center d-inline mx-5">
+                    <div className="m-auto text-center d-inline">
                         <Link to="#" className={"text-decoration-underline "}>Solutions</Link>
                     </div>
-                    <div className="m-auto text-center d-inline mx-5">
+                    <div className="m-auto text-center d-inline">
                         <Link to="#" className={"text-decoration-underline "}>Customers</Link>
                     </div>
-                    <div className="m-auto text-center d-inline mx-5">
+                    <div className="m-auto text-center d-inline">
                         <Link to="#" className={"text-decoration-underline "}>Partners</Link>
                     </div>
                 </div>
