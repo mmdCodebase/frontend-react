@@ -5,7 +5,7 @@ import EmailSidebar from './EmailSidebar';
 import EmailToolbar from './EmailToolbar';
 
 const MailInbox = () => {
-    document.title = "Mailbox | Velzon - React Admin & Dashboard Template";
+    document.title = "Mailbox | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

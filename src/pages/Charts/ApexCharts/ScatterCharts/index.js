@@ -10,7 +10,7 @@ import {
 } from "./ScatterCharts";
 
 const ScatterCharts = () => {
-    document.title = "Scatter Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Scatter Charts | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

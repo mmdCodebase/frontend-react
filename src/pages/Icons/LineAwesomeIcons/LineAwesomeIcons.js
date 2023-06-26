@@ -5,7 +5,7 @@ import MetaTags from "react-meta-tags";
 import BreadCrumb from '../../../Components/Common/BreadCrumb';
 
 const LineAwesomeIcons = () => {
-    document.title = "Line Awesome Icons | Velzon - React Admin & Dashboard Template";
+    document.title = "Line Awesome Icons | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

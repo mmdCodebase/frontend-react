@@ -56,7 +56,7 @@ const FormPickers = () => {
     setcolor(c1);
   };
 
-  document.title = "Pickers | Velzon - React Admin & Dashboard Template";
+  document.title = "Pickers | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

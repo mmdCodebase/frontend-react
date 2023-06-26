@@ -9,7 +9,7 @@ import avatar1 from "../../../assets/images/users/avatar-1.jpg";
 import AuthSlider from '../authCarousel';
 
 const CoverLockScreen = () => {
-    document.title = "Lock Screen | Velzon - React Admin & Dashboard Template";
+    document.title = "Lock Screen | Smart Shutter Website";
     return (
         <React.Fragment>
 

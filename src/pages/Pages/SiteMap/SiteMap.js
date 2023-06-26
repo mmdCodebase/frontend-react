@@ -5,7 +5,7 @@ import BreadCrumb from '../../../Components/Common/BreadCrumb';
 import { Link } from 'react-router-dom';
 
 const SiteMap = () => {
-    document.title = "SiteMap | Velzon - React Admin & Dashboard Template";
+    document.title = "SiteMap | Smart Shutter Website";
     return (
         <div>
             <div className="page-content">

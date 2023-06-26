@@ -345,7 +345,7 @@ const UiAccordions = () => {
     const t_coll9 = () => {
         setcoll9(!coll9);
     };
-    document.title = "Accordions | Velzon - React Admin & Dashboard Template";
+    document.title = "Accordions | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

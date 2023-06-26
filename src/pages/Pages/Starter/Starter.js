@@ -4,7 +4,7 @@ import MetaTags from "react-meta-tags";
 import BreadCrumb from '../../../Components/Common/BreadCrumb';
 
 const Starter = () => {
-  document.title = "Starter | Velzon - React Admin & Dashboard Template";
+  document.title = "Starter | Smart Shutter Website";
   return (
     <React.Fragment>
 

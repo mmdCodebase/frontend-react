@@ -32,7 +32,7 @@ function Autton() {
 }
 
 const UiTour = () => {
-    document.title = "Tour | Velzon - React Admin & Dashboard Template";
+    document.title = "Tour | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

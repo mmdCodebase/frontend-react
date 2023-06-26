@@ -209,7 +209,7 @@ const Team = () => {
         },
 
     ];
-    document.title = "Team | Velzon - React Admin & Dashboard Template";
+    document.title = "Team | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

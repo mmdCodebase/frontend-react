@@ -346,7 +346,7 @@ const Calender = () => {
       dispatch(onAddNewEvent(modifiedData));
     }
   };
-  document.title = "Calendar | Velzon - React Admin & Dashboard Template";
+  document.title = "Calendar | Smart Shutter Website";
   return (
     <React.Fragment>
       <DeleteModal

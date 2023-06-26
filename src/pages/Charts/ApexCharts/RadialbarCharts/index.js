@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import { SimpleRadialbar, MultipleRadialbar, CircleRadialbar, GradientCircleRadialbar, StrokedCircleRadial, SemiCircularRadial } from './RadialbarCharts'
 
 const RadialbarCharts = () => {
-    document.title = "Radialbar Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Radialbar Charts | Smart Shutter Website";
     return (
         <div className="page-content">
             <Container fluid>

@@ -68,7 +68,7 @@ const CrmDeals = () => {
       setModal(true);
     }
   };
-  document.title = "Deals | Velzon - React Admin & Dashboard Template";
+  document.title = "Deals | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

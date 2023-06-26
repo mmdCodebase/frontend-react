@@ -7,7 +7,7 @@ import MetaTags from 'react-meta-tags';
 import AuthSlider from '../authCarousel';
 
 const CoverTwosVerify = () => {
-    document.title = "Two Step Verification | Velzon - React Admin & Dashboard Template";
+    document.title = "Two Step Verification | Smart Shutter Website";
     return (
         <React.Fragment>
 

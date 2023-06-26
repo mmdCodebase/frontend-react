@@ -15,7 +15,7 @@ import { DefaultAlertsExample, BorderlessExample, DismissingExample, LinkColorEx
 
 const UiAlerts = () => {
     const [show, setShow] = useState(false);
-    document.title = "Alerts | Velzon - React Admin & Dashboard Template";
+    document.title = "Alerts | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

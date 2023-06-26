@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 import Widgets from './Widgets';
 
 const Transactions = () => {
-    document.title = "Transactions | Velzon - React Admin & Dashboard Template";
+    document.title = "Transactions | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

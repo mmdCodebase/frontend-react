@@ -118,7 +118,7 @@ const Chat = () => {
       addMessage(currentRoomId, currentUser.name);
     }
   };
-  document.title = "Chat | Velzon - React Admin & Dashboard Template";
+  document.title = "Chat | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

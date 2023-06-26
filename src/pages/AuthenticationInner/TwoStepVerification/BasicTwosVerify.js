@@ -8,7 +8,7 @@ import MetaTags from 'react-meta-tags';
 import logoLight from "../../../assets/images/logo-light.png";
 
 const BasicTwosVerify = () => {
-    document.title = "Two Step Verification | Velzon - React Admin & Dashboard Template";
+    document.title = "Two Step Verification | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="auth-page-wrapper">

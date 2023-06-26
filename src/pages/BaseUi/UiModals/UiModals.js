@@ -162,7 +162,7 @@ const UiModals = () => {
     function tog_positionBottomRight() {
         setmodal_positionBottomRight(!modal_positionBottomRight);
     }
-    document.title = "Modals | Velzon - React Admin & Dashboard Template";
+    document.title = "Modals | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

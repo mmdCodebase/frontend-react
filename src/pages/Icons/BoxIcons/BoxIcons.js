@@ -51,7 +51,7 @@ const IconBoxicons = (props) => {
     document.getElementById("logos").innerHTML = logos;
     document.getElementById("regularIcon").innerHTML = regularIcon;
   });
-  document.title = "Box Icons | Velzon - React Admin & Dashboard Template";
+  document.title = "Box Icons | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

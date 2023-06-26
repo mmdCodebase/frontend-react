@@ -271,7 +271,7 @@ const CrmLeads = () => {
     ],
     [handleLeadClick]
   );
-  document.title = "Leads | Velzon - React Admin & Dashboard Template";
+  document.title = "Leads | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

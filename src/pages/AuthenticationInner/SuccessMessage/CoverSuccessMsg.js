@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 import AuthSlider from '../authCarousel';
 
 const CoverSuccessMsg = () => {
-    document.title = "Success Message | Velzon - React Admin & Dashboard Template";
+    document.title = "Success Message | Smart Shutter Website";
     return (
         <React.Fragment>
 

@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import AuthSlider from '../authCarousel';
 
 const CoverSignIn = () => {
-    document.title = "Cover SignIn | Velzon - React Admin & Dashboard Template";
+    document.title = "Cover SignIn | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">

@@ -29323,7 +29323,7 @@ const Materialdesign = () => {
       });
     })();
   }, []);
-  document.title = "Material Design Icons | Velzon - React Admin & Dashboard Template";
+  document.title = "Material Design Icons | Smart Shutter Website";
   return (
     <React.Fragment>
 

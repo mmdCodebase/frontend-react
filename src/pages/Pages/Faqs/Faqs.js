@@ -115,7 +115,7 @@ const Faqs = () => {
         setcol10(false)
         setcol11(false)
     }
-    document.title = "FAQs | Velzon - React Admin & Dashboard Template";
+    document.title = "FAQs | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

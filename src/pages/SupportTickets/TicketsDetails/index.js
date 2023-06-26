@@ -8,7 +8,7 @@ import MetaTags from 'react-meta-tags';
 
 
 const TicketsDetaiks = () => {
-    document.title = "Ticket Details | Velzon - React Admin & Dashboard Template";
+    document.title = "Ticket Details | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

@@ -70,7 +70,7 @@ const UiCards = () => {
             document.getElementById(id).classList.add("d-none");
         }, 3000);
     };
-    document.title = "Cards | Velzon - React Admin & Dashboard Template";
+    document.title = "Cards | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

@@ -7,7 +7,7 @@ import MetaTags from 'react-meta-tags';
 import error400cover from "../../../assets/images/error400-cover.png";
 
 const Cover404 = () => {
-    document.title = "404 Error Cover | Velzon - React Admin & Dashboard Template";
+    document.title = "404 Error Cover | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="auth-page-content">

@@ -312,7 +312,7 @@ const CrmContacts = () => {
 
   // SideBar Contact Deatail
   const [info, setInfo] = useState([]);
-  document.title = "Contacts | Velzon - React Admin & Dashboard Template";
+  document.title = "Contacts | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

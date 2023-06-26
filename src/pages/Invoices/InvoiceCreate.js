@@ -71,7 +71,7 @@ const InvoiceCreate = () => {
       ],
     },
   ];
-  document.title = "Create Invoice | Velzon - React Admin & Dashboard Template";
+  document.title = "Create Invoice | Smart Shutter Website";
   return (
     <div className="page-content">
 

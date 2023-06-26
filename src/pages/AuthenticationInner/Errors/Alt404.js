@@ -4,7 +4,7 @@ import { Card, CardBody, Col, Container, Row } from 'reactstrap';
 import MetaTags from 'react-meta-tags';
 
 const Alt404 = () => {
-    document.title = "404 Error Alt | Velzon - React Admin & Dashboard Template";
+    document.title = "404 Error Alt | Smart Shutter Website";
     return (
         <React.Fragment>
 

@@ -7,7 +7,7 @@ import BreadCrumb from '../../../Components/Common/BreadCrumb';
 import { BaseExample, CardTableExample, PaginationExample, SearchExample, SortingExample, LoadingStateExample, FixedHeaderExample, HiddenColumnsExample } from './GridTablesData';
 
 const GridTables = () => {
-    document.title = "Grid Js | Velzon - React Admin & Dashboard Template";
+    document.title = "Grid Js | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

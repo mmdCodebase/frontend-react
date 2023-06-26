@@ -9,7 +9,7 @@ import MetaTags from 'react-meta-tags';
 import logoLight from "../../../assets/images/logo-light.png";
 
 const BasicSignIn = () => {
-    document.title = "Basic SignIn | Velzon - React Admin & Dashboard Template";
+    document.title = "Basic SignIn | Smart Shutter Website";
     return (
         <React.Fragment>
             <ParticlesAuth>

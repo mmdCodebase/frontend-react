@@ -207,7 +207,7 @@ const Pricing = () => {
             setActiveTab(tab);
         }
     };
-    document.title = "Pricing | Velzon - React Admin & Dashboard Template";
+    document.title = "Pricing | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

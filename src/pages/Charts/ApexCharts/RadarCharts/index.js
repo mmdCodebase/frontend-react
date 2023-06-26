@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import { SimpleRadar, MultipleRadar, PolygonRadar } from './RadarCharts';
 
 const RadarCharts = () => {
-    document.title = "Radar Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Radar Charts | Smart Shutter Website";
     return (
         <div className="page-content">
             <Container fluid>

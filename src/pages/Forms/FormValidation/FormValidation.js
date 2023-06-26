@@ -107,7 +107,7 @@ const FormValidations = () => {
     }
     setValidation(modifiedV);
   };
-  document.title = "Validation | Velzon - React Admin & Dashboard Template";
+  document.title = "Validation | Smart Shutter Website";
   return (
     <React.Fragment>
       <UiContent />

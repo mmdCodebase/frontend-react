@@ -174,7 +174,7 @@ const UiTabs = () => {
             setlightNavTab(tab);
         }
     };
-    document.title = "Tabs | Velzon - React Admin & Dashboard Template";
+    document.title = "Tabs | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

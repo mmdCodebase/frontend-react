@@ -41,7 +41,7 @@ const KanbanBoard = () => {
 
     const data = map(kanbanBoardData, task => ({ ...task, cards: task.tasks }));
     data.length = Math.min(data.length, 6);
-    document.title = "Kanban Board | Velzon - React Admin & Dashboard Template";
+    document.title = "Kanban Board | Smart Shutter Website";
     return (
         <React.Fragment>
 

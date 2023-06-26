@@ -11,7 +11,7 @@ import {
 } from "./TimelineCharts";
 
 const TimelineCharts = () => {
-    document.title = "TimeLine Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "TimeLine Charts | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

@@ -8,7 +8,7 @@ import MetaTags from 'react-meta-tags';
 import logoLight from "../../../assets/images/logo-light.png";
 
 const BasicLogout = () => {
-    document.title = "Log Out | Velzon - React Admin & Dashboard Template";
+    document.title = "Log Out | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="auth-page-content">

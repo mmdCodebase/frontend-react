@@ -11,7 +11,7 @@ import PreviewCardHeader from '../../../Components/Common/PreviewCardHeader';
 import { Ratio169Example, Ratio219Example, Ratio43Example, Ratio11Example, CustomRationExample } from './UiEmbedVideoCode';
 
 const UiEmbedVideo = () => {
-    document.title = "Embed Video | Velzon - React Admin & Dashboard Template";
+    document.title = "Embed Video | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

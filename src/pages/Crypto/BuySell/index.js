@@ -9,7 +9,7 @@ import MetaTags from 'react-meta-tags';
 
 
 const BuySell = () => {
-    document.title = "Buy & Sell | Velzon - React Admin & Dashboard Template";
+    document.title = "Buy & Sell | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

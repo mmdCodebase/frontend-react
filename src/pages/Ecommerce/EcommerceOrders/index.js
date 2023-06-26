@@ -410,7 +410,7 @@ const EcommerceOrders = () => {
     ],
     [handleOrderClick]
   );
-  document.title = "Orders | Velzon - React Admin & Dashboard Template";
+  document.title = "Orders | Smart Shutter Website";
   return (
     <div className="page-content">
       <DeleteModal

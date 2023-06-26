@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 import ICO from './ICO';
 
 const ICOList = () => {
-    document.title = "ICO LIST | Velzon - React Admin & Dashboard Template";
+    document.title = "ICO LIST | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

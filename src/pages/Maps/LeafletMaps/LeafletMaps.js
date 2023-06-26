@@ -14,7 +14,7 @@ import LayerGroup from "./MapsLeaflet/LayerGroup";
 import MapLayerControl from "./MapsLeaflet/MapLayerControl";
 
 const LeafletMaps = () => {
-    document.title = "Leaflet Maps | Velzon - React Admin & Dashboard Template";
+    document.title = "Leaflet Maps | Smart Shutter Website";
     return (
         <React.Fragment>
 

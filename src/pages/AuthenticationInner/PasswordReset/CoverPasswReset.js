@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 import AuthSlider from '../authCarousel';
 
 const CoverPasswReset = () => {
-    document.title = "Reset Password | Velzon - React Admin & Dashboard Template";
+    document.title = "Reset Password | Smart Shutter Website";
     return (
         <React.Fragment>
 

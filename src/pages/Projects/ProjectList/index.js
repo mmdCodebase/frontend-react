@@ -19,7 +19,7 @@ const ProjectList = () => {
     useEffect(() => {
         dispatch(getProjectList());
     }, [dispatch]);
-    document.title = "Project List | Velzon - React Admin & Dashboard Template";
+    document.title = "Project List | Smart Shutter Website";
 
     return (
         <React.Fragment>

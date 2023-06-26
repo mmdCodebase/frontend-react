@@ -17,7 +17,7 @@ import img2 from "../../../assets/images/small/img-2.jpg";
 import { StacksVerticalExample, StacksHorizontalExample, TextSelectionExample, PointerEventsExample, OverflowExample, PositionExample, ShadowsExample, WidthExample, HeightExample } from './UiUtilitiesCode';
 
 const UiUtilities = () => {
-    document.title = "Utilities | Velzon - React Admin & Dashboard Template";
+    document.title = "Utilities | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

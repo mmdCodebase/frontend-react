@@ -60,7 +60,7 @@ const Masks = () => {
   function onNumberChange(e) {
     setNumber(e.target.rawValue);
   }
-  document.title = "Input Masks | Velzon - React Admin & Dashboard Template";
+  document.title = "Input Masks | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

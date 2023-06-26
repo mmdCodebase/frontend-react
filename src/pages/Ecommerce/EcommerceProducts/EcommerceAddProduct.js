@@ -117,7 +117,7 @@ const EcommerceAddProduct = (props) => {
       ],
     },
   ];
-  document.title = "Create Product | Velzon - React Admin & Dashboard Template";
+  document.title = "Create Product | Smart Shutter Website";
   return (
     <div className="page-content">
       <Container fluid>

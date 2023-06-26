@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import { BasicTreemap, MultiTreemap, DiffColorTreemap, ColorRangeTreemap } from './TreemapCharts'
 
 const TreemapCharts = () => {
-    document.title = "Treemap Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Treemap Charts | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

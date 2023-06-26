@@ -193,7 +193,7 @@ const InvoiceList = () => {
     ],
     []
   );
-  document.title = "Invoice List | Velzon - React Admin & Dashboard Template";
+  document.title = "Invoice List | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

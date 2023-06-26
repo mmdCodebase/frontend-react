@@ -300,7 +300,7 @@ const EcommerceCustomers = () => {
     ],
     [handleCustomerClick]
   );
-  document.title = "Customers | Velzon - React Admin & Dashboard Template";
+  document.title = "Customers | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

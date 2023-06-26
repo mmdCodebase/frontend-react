@@ -7,7 +7,7 @@ import MetaTags from 'react-meta-tags';
 
 
 const TaskList = () => {
-    document.title = "Tasks List | Velzon - React Admin & Dashboard Template";
+    document.title = "Tasks List | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

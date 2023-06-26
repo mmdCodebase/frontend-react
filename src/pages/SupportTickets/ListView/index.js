@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 import TicketsData from './TicketsData';
 
 const ListView = () => {
-    document.title = "Tickets List | Velzon - React Admin & Dashboard Template";
+    document.title = "Tickets List | Smart Shutter Website";
 
     return (
         <React.Fragment>

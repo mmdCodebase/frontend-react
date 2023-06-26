@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 
 
 const ProjectOverview = () => {
-    document.title = "Project Overview | Velzon - React Admin & Dashboard Template";
+    document.title = "Project Overview | Smart Shutter Website";
 
     return (
         <React.Fragment>

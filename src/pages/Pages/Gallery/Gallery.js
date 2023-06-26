@@ -144,7 +144,7 @@ const Gallery = () => {
 
 
   ]
-  document.title = "Gallery | Velzon - React Admin & Dashboard Template";
+  document.title = "Gallery | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

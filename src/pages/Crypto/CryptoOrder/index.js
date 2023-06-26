@@ -17,7 +17,7 @@ const CryproOrder = () => {
     useEffect(() => {
         dispatch(getOrderList());
     }, [dispatch]);
-    document.title = "Orders | Velzon - React Admin & Dashboard Template";
+    document.title = "Orders | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

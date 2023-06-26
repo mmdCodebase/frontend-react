@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 import AuthSlider from '../authCarousel';
 
 const CoverLogout = () => {
-    document.title = "Log Out | Velzon - React Admin & Dashboard Template";
+    document.title = "Log Out | Smart Shutter Website";
     return (
         <React.Fragment>
 

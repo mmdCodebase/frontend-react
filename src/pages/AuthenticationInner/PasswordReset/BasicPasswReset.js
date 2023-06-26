@@ -6,7 +6,7 @@ import logoLight from "../../../assets/images/logo-light.png";
 import MetaTags from 'react-meta-tags';
 
 const BasicPasswReset = () => {
-    document.title = "Reset Password | Velzon - React Admin & Dashboard Template";
+    document.title = "Reset Password | Smart Shutter Website";
     return (
         <ParticlesAuth>
             <div className="auth-page-content">

@@ -48,7 +48,7 @@ const Register = () => {
     useEffect(() => {
         dispatch(apiError(""));
     }, [dispatch]);
-    document.title = "Basic SignUp | Velzon - React Admin & Dashboard Template";
+    document.title = "Basic SignUp | Smart Shutter Website";
     return (
         <React.Fragment>
             <ParticlesAuth>

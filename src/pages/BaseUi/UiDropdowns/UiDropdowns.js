@@ -45,7 +45,7 @@ const UiDropdowns = () => {
             setNotification1Tab(tab);
         }
     };
-    document.title = "Dropdowns | Velzon - React Admin & Dashboard Template";
+    document.title = "Dropdowns | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

@@ -38,7 +38,7 @@ const UiSwiperSlider = () => {
             return '<span className="' + className + '">' + (index + 1) + "</span>";
         },
     };
-    document.title = "Swiper Slider  | Velzon - React Admin & Dashboard Template";
+    document.title = "Swiper Slider  | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

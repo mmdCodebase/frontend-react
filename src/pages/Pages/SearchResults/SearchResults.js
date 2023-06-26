@@ -301,7 +301,7 @@ const SearchResults = () => {
     const toggledropDown = () => {
         setDropdownOpen(!dropdownOpen);
     };
-    document.title = "Search Results | Velzon - React Admin & Dashboard Template";
+    document.title = "Search Results | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

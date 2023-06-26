@@ -9,7 +9,7 @@ import MetaTags from 'react-meta-tags';
 import RecentTransaction from './RecentTransaction';
 
 const MyWallet = () => {
-    document.title = "My Wallet | Velzon - React Admin & Dashboard Template";
+    document.title = "My Wallet | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

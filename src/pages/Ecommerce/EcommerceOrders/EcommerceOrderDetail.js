@@ -34,7 +34,7 @@ const EcommerceOrderDetail = (props) => {
   function togglecol3() {
     setcol3(!col3)
   }
-  document.title = "Order Details | Velzon - React Admin & Dashboard Template";
+  document.title = "Order Details | Smart Shutter Website";
   return (
     <div className="page-content">
       <Container fluid>

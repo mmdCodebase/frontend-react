@@ -319,7 +319,7 @@ const CrmCompanies = () => {
 
   // SideBar Company Deatail
   const [info, setInfo] = useState([]);
-  document.title = "Companies | Velzon - React Admin & Dashboard Template";
+  document.title = "Companies | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import { SimplePie, SimpleDonut, UpdateDonut, MonochromePie, GradientDonut, PatternedDonut, ImagePieChart } from './PieCharts'
 
 const PieCharts = () => {
-    document.title = "Pie Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Pie Charts | Smart Shutter Website";
     return (
         <div className="page-content">
             <Container fluid>

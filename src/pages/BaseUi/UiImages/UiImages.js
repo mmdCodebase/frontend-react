@@ -26,7 +26,7 @@ import { Link } from 'react-router-dom';
 import { ImgRoundedCircleExample, ImgThumbnailsExample, ImgSizesExample, AvatarExample, AvatarGroupExample, FiguresExample, ResponsiveExample } from './UiImagesCode';
 
 const UiImages = () => {
-    document.title = "Images | Velzon - React Admin & Dashboard Template";
+    document.title = "Images | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

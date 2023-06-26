@@ -18,7 +18,7 @@ import {
 } from './UiButtonCode';
 
 const UiButtons = () => {
-    document.title = "Buttons | Velzon - React Admin & Dashboard Template";
+    document.title = "Buttons | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

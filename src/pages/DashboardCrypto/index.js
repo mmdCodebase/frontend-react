@@ -13,7 +13,7 @@ import Widgets from './Widgets';
 import Widgets1 from './Widgets1';
 
 const DashboardCrypto = () => {
-    document.title = "Crypto Dashboard | Velzon - React Admin & Dashboard Template";
+    document.title = "Crypto Dashboard | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

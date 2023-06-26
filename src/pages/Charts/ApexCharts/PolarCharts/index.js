@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import { BasicPolar, PolarMonochrome } from './PolarCharts'
 
 const Polarcharts = () => {
-    document.title = "Polar Charts | Velzon - React Admin & Dashboard Template";
+    document.title = "Polar Charts | Smart Shutter Website";
     return (
         <div className="page-content">
             <Container fluid>

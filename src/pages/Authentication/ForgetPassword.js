@@ -42,7 +42,7 @@ const ForgetPasswordPage = props => {
     forgetError: state.ForgetPassword.forgetError,
     forgetSuccessMsg: state.ForgetPassword.forgetSuccessMsg,
   }));
-  document.title = "Reset Password | Velzon - React Admin & Dashboard Template";
+  document.title = "Reset Password | Smart Shutter Website";
   return (
     <ParticlesAuth>
       <div className="auth-page-content">

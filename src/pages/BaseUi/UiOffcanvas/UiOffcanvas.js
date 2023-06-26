@@ -63,7 +63,7 @@ const UiOffcanvas = () => {
     const toggleScrollBackDrop = () => {
         setIsScrollBackDrop(!isScrollBackDrop);
     };
-    document.title = "Offcanvas | Velzon - React Admin & Dashboard Template";
+    document.title = "Offcanvas | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

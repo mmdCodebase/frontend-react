@@ -99,7 +99,7 @@ const EcommerceCheckout = () => {
       ],
     },
   ];
-  document.title = "Checkout | Velzon - React Admin & Dashboard Template";
+  document.title = "Checkout | Smart Shutter Website";
   return (
     <React.Fragment>
       <div className="page-content">

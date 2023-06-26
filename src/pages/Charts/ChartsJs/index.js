@@ -5,7 +5,7 @@ import MetaTags from 'react-meta-tags';
 import { LineChart, BarChart, PieChart, DonutChart, PolarChart, RadarChart } from './ChartsJs';
 
 const ChartsJs = () => {
-    document.title = "Charts Js | Velzon - React Admin & Dashboard Template";
+    document.title = "Charts Js | Smart Shutter Website";
     return (
         <div className="page-content">
             <Container fluid>

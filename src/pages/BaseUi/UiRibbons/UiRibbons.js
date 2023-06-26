@@ -10,7 +10,7 @@ import PreviewCardHeader from '../../../Components/Common/PreviewCardHeader';
 
 import { RoundedRibbonExample, RibbonShapeExample, FilledRibbonsExample, BoxedRibbonsExample, RibbonsExample, RibbonsHoverExample } from './UiRibbonsCode';
 const UiRibbons = () => {
-    document.title = "Ribbons | Velzon - React Admin & Dashboard Template";
+    document.title = "Ribbons | Smart Shutter Website";
     return (
         <React.Fragment>
             <UiContent />

@@ -15,7 +15,7 @@ const Settings = () => {
     const tabChange = (tab) => {
         if (activeTab !== tab) setActiveTab(tab);
     };
-    document.title = "Profile Settings | Velzon - React Admin & Dashboard Template";
+    document.title = "Profile Settings | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

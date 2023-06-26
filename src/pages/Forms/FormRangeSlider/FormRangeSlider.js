@@ -38,7 +38,7 @@ const FormRangeSlider = () => {
     11: "Nov",
     12: "Dec",
   };
-  document.title = "Range Slider | Velzon - React Admin & Dashboard Template";
+  document.title = "Range Slider | Smart Shutter Website";
   return (
     <React.Fragment>
       <UiContent />

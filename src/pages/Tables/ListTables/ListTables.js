@@ -79,7 +79,7 @@ const ListTables = () => {
             pagination: true
         });
     });
-    document.title = "Listjs | Velzon - React Admin & Dashboard Template";
+    document.title = "Listjs | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">

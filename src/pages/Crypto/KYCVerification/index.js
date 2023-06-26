@@ -6,7 +6,7 @@ import MetaTags from 'react-meta-tags';
 
 
 const KYCVerification = () => {
-    document.title = "KYC Application | Velzon - React Admin & Dashboard Template";
+    document.title = "KYC Application | Smart Shutter Website";
     return (
         <React.Fragment>
             <div className="page-content">
